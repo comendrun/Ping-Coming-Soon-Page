@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <!--Favicon-->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts -->
+
+    <!-- Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/29114b0cab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font awesome-->
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img class="logo" src="./images/logo.svg" alt="ping logo" />
+        <h1>We are launching <span>soon!</span></h1>
+        <p class="description">Subscribe and get notified</p>
+        <form action="/" method="GET" id="form">
+          <div class="input-container">
+            <input
+              type="email"
+              class="input round"
+              placeholder="Your email address ..."
+              id="email"
+            />
+            <div class="alert-message"></div>
+          </div>
+          <button class="btn round" type="submit">Notify Me</button>
+        </form>
+
+        <img
+          class="dashboard-img"
+          src="./images/illustration-dashboard.png"
+          alt="dashboard"
+        />
+
+        <div class="social-media-container">
+          <a
+            href="https://www.facebook.com/profile.php?id=100075303231964"
+            class="links"
+          >
+            <i class="fa-brands fa-facebook-f fa-lg icon"></i>
+          </a>
+          <a href="https://twitter.com/comendrun" class="links">
+            <i class="fa-brands fa-twitter fa-lg icon"></i>
+          </a>
+          <a href="https://github.com/comendrun" class="links">
+            <i class="fa-brands fa-github-alt fa-lg icon"></i>
+          </a>
+        </div>
+
+        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by &nbsp;
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by &nbsp;
+      <a href="https://github.com/comendrun"> Kamran Rouhani</a>.
+    </footer>
+    <!-- JS file==> -->
+    <script src="./app.js"></script>
+  </body>
+</html>
